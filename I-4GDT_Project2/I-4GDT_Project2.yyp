@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "7dbd5232-3556-4612-aa8b-bafdc340bbef",
+            "Value": {
+                "id": "8d701c94-74f6-4947-927a-1a9242ddb363",
+                "resourcePath": "objects\\obj_screenController\\obj_screenController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "89ab770a-8b86-4c9d-8fba-13e0e9cc2206",
             "Value": {
                 "id": "bcc3a9b1-a4db-4d64-b7ed-175a055c5a8f",
@@ -164,6 +172,14 @@
                 "id": "c8e2d377-374d-44cf-bf85-dc8b8e5c5d4e",
                 "resourcePath": "views\\8b6f4be6-b5b5-4b84-b7cd-49a984bbf6cd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "93a63555-3211-487a-bd85-325a7997643f",
+            "Value": {
+                "id": "ef4dec93-6928-43db-832f-b16a89037789",
+                "resourcePath": "sprites\\spr_dirt1\\spr_dirt1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
