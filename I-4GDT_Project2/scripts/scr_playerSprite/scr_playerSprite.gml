@@ -1,25 +1,53 @@
-if(facing == "RIGHT")
+if(obj_marsh.facing == Dir.RIGHT)
 {
-	if(state == "MOVING")
+	if(obj_marsh.state == States.MOVING)
 	{
-		sprite_index = spr_marshMoving
+		sprite_index = spr_marshMoving;
+	}
+	else if(obj_marsh.state == States.ROLLING)
+	{
+		sprite_index = spr_marshRolling;
 	}
 	else
 	{
-		sprite_index = spr_marshIdle
+		sprite_index = spr_marshIdle;
 	}
 	
-	image_xscale = 1;
-}
-else if(facing == "LEFT")
-{
-	if(state == "MOVING")
+	if(obj_healthController.healthDanger)
 	{
-		sprite_index = spr_marshMoving
+		image_xscale = 0.7;
+		image_yscale = 0.7;
 	}
 	else
 	{
-		sprite_index = spr_marshIdle
+		image_xscale = 1;
+		image_yscale = 1;
 	}
-	image_xscale = -1;
+	
+}
+else if(facing == Dir.LEFT)
+{
+	if(obj_marsh.state == States.MOVING)
+	{
+		sprite_index = spr_marshMoving;
+	}
+	else if(obj_marsh.state == States.ROLLING)
+	{
+		sprite_index = spr_marshRolling;
+	}
+	else
+	{
+		sprite_index = spr_marshIdle;
+	}
+	
+	if(obj_healthController.healthDanger)
+	{
+		image_xscale = -0.7;
+		image_yscale = 0.7;
+	}
+	else
+	{
+		image_xscale = -1;
+		image_yscale = 1;
+	}
 }

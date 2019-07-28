@@ -2,6 +2,7 @@
 key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
 key_up = keyboard_check_pressed(vk_up);
+key_space = keyboard_check(vk_space);
 
 var move = key_right - key_left;
 
@@ -36,17 +37,32 @@ x = x+vx;
 
 if (move<0)
 {
-	facing = "LEFT";
-	state = "MOVING"
+	facing = Dir.LEFT;
+	
+	if(key_space)
+	{
+		state = States.ROLLING;
+	}
+	else
+	{
+		state = States.MOVING;
+	}
 }
 else if(move>0)
 {
-	facing = "RIGHT";
-	state = "MOVING";
+	facing = Dir.RIGHT;
+	if(key_space)
+	{
+		state = States.ROLLING;
+	}
+	else
+	{
+		state = States.MOVING;
+	}
 }
 else
 {
-	state = "IDLE";
+	state = States.IDLE;
 }
 
 scr_playerSprite();
