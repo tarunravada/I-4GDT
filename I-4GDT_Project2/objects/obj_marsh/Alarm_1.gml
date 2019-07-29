@@ -1,0 +1,2 @@
+canRoll = true;
+alarmed = false;
