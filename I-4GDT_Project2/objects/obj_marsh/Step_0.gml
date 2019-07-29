@@ -39,6 +39,7 @@ if (move<0)
 {
 	facing = Dir.LEFT;
 	
+
 	if((place_meeting(x, y+1,obj_block)) && key_space && canRoll)
 	{
 		state = States.ROLLING;
@@ -46,6 +47,7 @@ if (move<0)
 			alarm[0] = 100;
 			alarmed = true;
 		}
+
 	}
 	else
 	{
@@ -55,6 +57,7 @@ if (move<0)
 else if(move>0)
 {
 	facing = Dir.RIGHT;
+
 	if((place_meeting(x, y+1,obj_block)) && key_space && canRoll)
 	{
 		state = States.ROLLING;
@@ -62,6 +65,7 @@ else if(move>0)
 			alarm[0] = 100;
 			alarmed = true;
 		}
+
 	}
 	else
 	{

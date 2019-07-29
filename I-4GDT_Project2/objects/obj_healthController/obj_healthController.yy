@@ -33,6 +33,7 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "0d0cce45-e2a2-42c5-a726-5180192fd9eb"
+
         },
         {
             "id": "97c7aef1-1f61-4fcc-864a-6b95fd354842",
@@ -43,6 +44,7 @@
             "enumb": 82,
             "eventtype": 9,
             "m_owner": "0d0cce45-e2a2-42c5-a726-5180192fd9eb"
+
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
