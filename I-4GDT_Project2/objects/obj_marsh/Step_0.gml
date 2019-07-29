@@ -9,7 +9,7 @@ var move = key_right - key_left;
 vx = mvSpeed*move;
 vy = vy+grav;
 
-if((place_meeting(x, y+1,obj_block)) && (key_up))
+if((place_meeting(x, y+1,obj_block)) && (key_up) && state != States.ROLLING)
 {
 	vy = jmpSpeed;
 }
@@ -39,9 +39,15 @@ if (move<0)
 {
 	facing = Dir.LEFT;
 	
-	if(key_space)
+
+	if((place_meeting(x, y+1,obj_block)) && key_space && canRoll)
 	{
 		state = States.ROLLING;
+		if(!alarmed){
+			alarm[0] = 100;
+			alarmed = true;
+		}
+
 	}
 	else
 	{
@@ -51,9 +57,15 @@ if (move<0)
 else if(move>0)
 {
 	facing = Dir.RIGHT;
-	if(key_space)
+
+	if((place_meeting(x, y+1,obj_block)) && key_space && canRoll)
 	{
 		state = States.ROLLING;
+		if(!alarmed){
+			alarm[0] = 100;
+			alarmed = true;
+		}
+
 	}
 	else
 	{

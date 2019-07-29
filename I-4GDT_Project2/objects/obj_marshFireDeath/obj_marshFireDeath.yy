@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_marshFireDeath",
     "eventList": [
-        
+        {
+            "id": "e2c07ddd-6e9a-4740-a1f3-36b7b01dc324",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "05adfc71-896b-46e7-8c55-6c71604576b3"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

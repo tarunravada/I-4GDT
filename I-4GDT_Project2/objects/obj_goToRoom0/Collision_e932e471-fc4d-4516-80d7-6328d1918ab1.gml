@@ -1,6 +1,9 @@
-/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
-/// @DnDHash : 5ED20CCB
-/// @DnDArgument : "room" "room0"
-/// @DnDSaveInfo : "room" "a232df83-68a2-49ea-98bf-679a0ab3ca3e"
-room_goto(room0);
+/// @DnDHash : 69A22CF1
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "caption" ""CONGRATULATIONS! YOU WIN""
+draw_text(x + 0, y + 0, string("CONGRATULATIONS! YOU WIN") + "");
+
