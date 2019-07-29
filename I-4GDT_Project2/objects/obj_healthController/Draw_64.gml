@@ -7,3 +7,4 @@ else
 {
 	draw_text(50,70, "Can Roll: False");
 }
+
