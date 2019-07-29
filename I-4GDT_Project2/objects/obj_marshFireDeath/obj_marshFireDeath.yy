@@ -5,10 +5,10 @@
     "name": "obj_marshFireDeath",
     "eventList": [
         {
-            "id": "e2c07ddd-6e9a-4740-a1f3-36b7b01dc324",
+            "id": "d25e4c54-2f85-42f9-b29b-1c93d4d4a2f0",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "84f1ccf3-7c6c-4d33-8f81-034f6f3c47bd",
+    "spriteId": "5ab4df17-911f-482e-9b27-950805b7b967",
     "visible": true
 }

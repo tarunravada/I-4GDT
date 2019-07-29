@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_marshAntDeath",
     "eventList": [
-        
+        {
+            "id": "e27168f6-a6a7-497c-9a8e-a47489844dd6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "ae456b4e-6cb1-49a6-a5bd-24a7bd860a23"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "25d3a2d6-6592-43f3-ba07-21b9938ec849",
+    "spriteId": "0b1a81b0-7c71-408c-838e-4fa48d719961",
     "visible": true
 }
