@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "de9e7377-9053-4eda-9fbc-6d68ea3b06ca",
+            "Value": {
+                "id": "f9f18895-0874-48c8-bfc4-9eccdb1de6e4",
+                "resourcePath": "objects\\obj_antDead\\obj_antDead.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ecfdc502-2d59-44f2-bbaa-611123ecc8d0",
             "Value": {
                 "id": "5a76b996-921a-4049-930a-9dc2d2e4b63b",

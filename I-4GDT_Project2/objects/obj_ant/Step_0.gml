@@ -14,7 +14,7 @@ y = y+vy;
 if(place_meeting(x,y,obj_marsh)&&active){
 	if(obj_marsh.state == States.ROLLING)
 	{
-		instance_destroy(self);
+		instance_change(obj_antDead,true);
 	}
 	else
 	{
