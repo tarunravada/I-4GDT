@@ -36,4 +36,3 @@ else if(!place_meeting(x+sign(hspeed)*sprite_width, y+1, obj_block))
 {
 	hspeed = hspeed*-1;
 }
-

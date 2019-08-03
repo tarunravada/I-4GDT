@@ -263,14 +263,6 @@
             }
         },
         {
-            "Key": "66d19f69-4303-4e69-95eb-3054abc1f286",
-            "Value": {
-                "id": "3d9b26e6-a751-4d18-ad0f-c514b7aa280a",
-                "resourcePath": "sprites\\spr_antEatMarsh\\spr_antEatMarsh.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "688c63c1-5158-4395-b6de-43bcc9d99072",
             "Value": {
                 "id": "1ebdb065-3b19-42d0-9e1f-2963b87c6139",
@@ -399,6 +391,14 @@
             }
         },
         {
+            "Key": "a6729675-30b0-4927-b40b-69029d4704c8",
+            "Value": {
+                "id": "d99cd3de-7a4a-4b7e-99ce-942c66268e0d",
+                "resourcePath": "sprites\\spr_marshRolling\\spr_marshRolling.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "6c411a04-d7a0-4178-9434-d1ec6cffffe8",
@@ -407,18 +407,18 @@
             }
         },
         {
-            "Key": "ab1e88c0-5148-428f-abdc-a572f42fddb9",
-            "Value": {
-                "id": "d54bf899-3b8e-4ae7-8aa6-d71a2e390b5b",
-                "resourcePath": "sprites\\spr_marshRolling\\spr_marshRolling.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ae456b4e-6cb1-49a6-a5bd-24a7bd860a23",
             "Value": {
                 "id": "6a2dbfba-a90c-4c91-96a3-24fc7c0a4406",
                 "resourcePath": "objects\\obj_marshAntDeath\\obj_marshAntDeath.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b19b071e-f8aa-495f-a382-3783e0cd045e",
+            "Value": {
+                "id": "07b64073-5b37-480c-b790-9b078721b98b",
+                "resourcePath": "objects\\obj_playerFire\\obj_playerFire.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -499,6 +499,14 @@
             "Value": {
                 "id": "f9826778-fe84-4b59-b7b3-123ee9955f72",
                 "resourcePath": "sprites\\spr_background\\spr_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "de9535bb-24a9-4a95-99a7-96cbf5572f91",
+            "Value": {
+                "id": "6868829e-ab3b-4864-904d-916009dfd2a2",
+                "resourcePath": "sprites\\spr_antEatMarsh\\spr_antEatMarsh.yy",
                 "resourceType": "GMSprite"
             }
         },
