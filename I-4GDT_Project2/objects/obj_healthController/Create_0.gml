@@ -9,3 +9,5 @@ enum Damager{
 lastDamage = Damager.NONE;
 hlth = 100;
 healthDanger = false;
+
+canRestart = false;

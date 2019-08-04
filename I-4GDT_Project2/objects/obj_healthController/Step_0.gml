@@ -2,11 +2,13 @@ if(hlth<=0 && lastDamage == Damager.FIRE && instance_exists(obj_marsh))
 {
 	instance_create_layer(obj_marsh.x,obj_marsh.y,"Instances",obj_marshFireDeath);
 	instance_destroy(obj_marsh);
+	canRestart = true;
 }
 else if(hlth<=0 && lastDamage == Damager.ANT && instance_exists(obj_marsh))
 {
 	instance_create_layer(obj_marsh.x,obj_marsh.y,"Instances",obj_marshAntDeath);
 	instance_destroy(obj_marsh);
+	canRestart = true;
 }
 
 if(hlth>100)
