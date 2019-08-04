@@ -31,8 +31,10 @@ if(place_meeting(x,y,obj_marsh)&&active){
 if(place_meeting(x+hspeed,y,obj_block))
 {
 	hspeed = hspeed*-1;
+	image_xscale = image_xscale*-1;
 }
-else if(!place_meeting(x+sign(hspeed)*sprite_width, y+1, obj_block))
+else if(!place_meeting(x+sign(hspeed)*32, y+1, obj_block))
 {
 	hspeed = hspeed*-1;
+	image_xscale = image_xscale*-1;
 }

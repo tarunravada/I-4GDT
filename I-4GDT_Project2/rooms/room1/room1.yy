@@ -228,9 +228,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Instances_block",
             "id": "69d06d3a-2d5a-4b10-9472-60e51b8a742c",
-
             "depth": 200,
-
             "grid_x": 16,
             "grid_y": 16,
             "hierarchyFrozen": false,
@@ -368,9 +366,7 @@
         {
             "name": "Background",
             "id": "3ab6bc05-09a8-47e9-a60b-0cbc6e96ed27",
-
             "depth": 300,
-
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -388,7 +384,6 @@
                     "animationSpeedType": "0",
                     "colour": { "Value": 4294967295 },
                     "depth": 400,
-
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
@@ -423,9 +418,7 @@
                     "animationFPS": 15,
                     "animationSpeedType": "0",
                     "colour": { "Value": 4294967295 },
-
                     "depth": 500,
-
                     "grid_x": 32,
                     "grid_y": 32,
                     "hierarchyFrozen": false,
@@ -460,7 +453,6 @@
                     "animationFPS": 15,
                     "animationSpeedType": "0",
                     "colour": { "Value": 4294967295 },
-
                     "depth": 600,
                     "grid_x": 32,
                     "grid_y": 32,
@@ -496,7 +488,6 @@
                     "animationFPS": 15,
                     "animationSpeedType": "0",
                     "colour": { "Value": 4294967295 },
-
                     "depth": 700,
                     "grid_x": 32,
                     "grid_y": 32,
@@ -532,7 +523,6 @@
                     "animationFPS": 15,
                     "animationSpeedType": "0",
                     "colour": { "Value": 4294967295 },
-
                     "depth": 800,
                     "grid_x": 32,
                     "grid_y": 32,
@@ -568,7 +558,6 @@
                     "animationFPS": 15,
                     "animationSpeedType": "0",
                     "colour": { "Value": 4294967295 },
-
                     "depth": 900,
                     "grid_x": 32,
                     "grid_y": 32,
@@ -604,7 +593,6 @@
                     "animationFPS": 15,
                     "animationSpeedType": "0",
                     "colour": { "Value": 4294967295 },
-
                     "depth": 1000,
                     "grid_x": 32,
                     "grid_y": 32,
@@ -640,7 +628,6 @@
                     "animationFPS": 15,
                     "animationSpeedType": "0",
                     "colour": { "Value": 4294967295 },
-
                     "depth": 1100,
                     "grid_x": 32,
                     "grid_y": 32,
@@ -676,7 +663,6 @@
                     "animationFPS": 15,
                     "animationSpeedType": "0",
                     "colour": { "Value": 4294967295 },
-
                     "depth": 1200,
                     "grid_x": 32,
                     "grid_y": 32,
@@ -712,7 +698,6 @@
                     "animationFPS": 15,
                     "animationSpeedType": "0",
                     "colour": { "Value": 4294967295 },
-
                     "depth": 1300,
                     "grid_x": 32,
                     "grid_y": 32,
@@ -748,7 +733,6 @@
                     "animationFPS": 15,
                     "animationSpeedType": "0",
                     "colour": { "Value": 4294967295 },
-
                     "depth": 1400,
                     "grid_x": 32,
                     "grid_y": 32,
@@ -809,7 +793,7 @@
     },
     "mvc": "1.0",
     "views": [
-{"id": "eff27bfb-2ca9-46dd-acf5-9a5b6278317c","hborder": 160,"hport": 720,"hspeed": -1,"hview": 180,"inherit": false,"modelName": "GMRView","objId": "7a9d34f3-5515-4191-86f4-3fc31d1f2e8b","mvc": "1.0","vborder": 60,"visible": true,"vspeed": -1,"wport": 1280,"wview": 320,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "eff27bfb-2ca9-46dd-acf5-9a5b6278317c","hborder": 160,"hport": 576,"hspeed": -1,"hview": 180,"inherit": false,"modelName": "GMRView","objId": "7a9d34f3-5515-4191-86f4-3fc31d1f2e8b","mvc": "1.0","vborder": 60,"visible": true,"vspeed": -1,"wport": 1024,"wview": 320,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "d7686215-e474-4707-982c-e23ebfa07a4f","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "41199173-3d13-40d9-a9a4-73b83e7953ef","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "4429e4c8-0753-407a-8c53-c0b47cce8957","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},

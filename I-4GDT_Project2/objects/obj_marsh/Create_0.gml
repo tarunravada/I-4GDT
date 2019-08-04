@@ -25,6 +25,7 @@ key_right = false;
 key_up = false;
 key_space = false;
 
-canRoll = true;
-alarmed = false;
+roll_count = 0;
+roll_reset = false;
+
 

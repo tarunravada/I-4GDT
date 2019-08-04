@@ -40,14 +40,25 @@ if (move<0)
 	facing = Dir.LEFT;
 	
 
-	if((place_meeting(x, y+1,obj_block)) && key_space && canRoll)
+	if((place_meeting(x, y+1,obj_block)) && key_space)
 	{
-		state = States.ROLLING;
-		if(!alarmed){
-			alarm[0] = 100;
-			alarmed = true;
+		if(roll_count < room_speed * 5)
+		{
+			state = States.ROLLING;
+			roll_count ++;
 		}
-
+		else if(!roll_reset)
+		{
+			roll_reset = true;
+			alarm[0] = room_speed*10;
+			state = States.MOVING;
+			//cant roll
+		}
+		else
+		{
+			state = States.MOVING;
+			// cant roll
+		}
 	}
 	else
 	{
@@ -58,14 +69,25 @@ else if(move>0)
 {
 	facing = Dir.RIGHT;
 
-	if((place_meeting(x, y+1,obj_block)) && key_space && canRoll)
+	if((place_meeting(x, y+1,obj_block)) && key_space)
 	{
-		state = States.ROLLING;
-		if(!alarmed){
-			alarm[0] = 100;
-			alarmed = true;
+		if(roll_count < room_speed * 5)
+		{
+			state = States.ROLLING;
+			roll_count ++;
 		}
-
+		else if(!roll_reset)
+		{
+			roll_reset = true;
+			alarm[0] = room_speed*10;
+			state = States.MOVING;
+			//cant roll
+		}
+		else
+		{
+			state = States.MOVING;
+			// cant roll
+		}
 	}
 	else
 	{
