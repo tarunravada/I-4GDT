@@ -15,6 +15,7 @@ if(place_meeting(x,y,obj_marsh)&&active){
 	if(obj_marsh.state == States.ROLLING)
 	{
 		instance_change(obj_antDead,true);
+		score += 5;
 	}
 	else
 	{

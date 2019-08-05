@@ -1,18 +1,18 @@
 {
-    "id": "0814241f-601d-4134-ab1f-290956d0a278",
+    "id": "4208a274-5d49-4467-9da9-f9c4ebfb38f5",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_goToRoom0",
+    "name": "obj_choco",
     "eventList": [
         {
-            "id": "e932e471-fc4d-4516-80d7-6328d1918ab1",
+            "id": "4449283e-b8e9-423c-88b5-1c176ffadf73",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "7a9d34f3-5515-4191-86f4-3fc31d1f2e8b",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "0814241f-601d-4134-ab1f-290956d0a278"
+            "m_owner": "4208a274-5d49-4467-9da9-f9c4ebfb38f5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "dbd932cf-630b-44f4-8ec0-d63aaa481a8e",
+    "spriteId": "5ab4df17-911f-482e-9b27-950805b7b967",
     "visible": true
 }

@@ -15,7 +15,7 @@ else
 	draw_set_font(font_15pt);
 	draw_set_color(c_white);
 	draw_text(50,50, "Health: "+string(hlth));
-	
+	draw_text(50,75, "Score: "+string(score));
 	draw_text (50, 100, "roll: "+string(obj_marsh.roll_count/room_speed));
 	draw_text (50, 200, "Alarm: "+string(obj_marsh.alarm[0]/room_speed));
 }
