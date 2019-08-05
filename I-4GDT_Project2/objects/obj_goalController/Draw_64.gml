@@ -1,34 +1,47 @@
-if(room == room0)
+if(room == room0 && obj_healthController.canRestart == false)
 {
 	if(!foundChoco)
 	{
-		draw_set_halign(fa_left);
+		draw_set_halign(fa_center);
 		draw_set_font(font_15pt);
-		draw_set_color(c_white);
-		draw_text(400,50, "Objective: Find Choco");
+		draw_text(camera_get_view_width(0)/2,50, "Objective: Rescue your friend Choco");
 	}
 	else
 	{	
-		draw_set_halign(fa_left);
+		draw_set_halign(fa_center);
 		draw_set_font(font_15pt);
-		draw_set_color(c_white);
-		draw_text(400,50, "Objective: Find Escape Flag");
+		draw_text(camera_get_view_width(0)/2,50, "Objective: Find Escape Flag");
 	}
 }
-else if(room == room1)
+else if(room == room1 && obj_healthController.canRestart == false)
 {
 	if(!foundGraham)
 	{
-		draw_set_halign(fa_left);
+		draw_set_halign(fa_center);
 		draw_set_font(font_15pt);
-		draw_set_color(c_white);
-		draw_text(400,50, "Objective: Find Graham");
+		draw_text(camera_get_view_width(0)/2,50, "Objective: Rescue your friend Graham");
 	}
 	else
 	{	
-		draw_set_halign(fa_left);
+		draw_set_halign(fa_center);
 		draw_set_font(font_15pt);
-		draw_set_color(c_white);
-		draw_text(400,50, "Objective: Find Escape Flag");
+		draw_text(camera_get_view_width(0)/2,50, "Objective: Find Escape Flag along with Graham and Choco ");
 	}
 }
+else if(room == room2 && obj_healthController.canRestart == false)
+{
+	draw_set_halign(fa_center);
+		draw_set_font(font_15pt);
+		draw_text(camera_get_view_width(0)/2,50, "Objective: Reach Campfire");
+}
+else if(room == room_end && obj_healthController.canRestart == false)
+{
+	draw_set_font(font_30pt);
+	draw_set_color(c_white);
+	draw_set_halign(fa_center);
+	draw_text(camera_get_view_width(0)/2, camera_get_view_height(0)/6, "CONGRATULATIONS!");
+	draw_set_font(font_20pt);
+	draw_text(camera_get_view_width(0)/2, camera_get_view_height(0)*2/6, "You Rescued your Friends!");
+	draw_text(camera_get_view_width(0)/2, camera_get_view_height(0)*4/6, "Press ENTER to Restart");
+}
+
