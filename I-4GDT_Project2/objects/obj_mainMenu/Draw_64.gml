@@ -4,9 +4,11 @@ if(instructions = true)
 	draw_set_halign(fa_center);
 	draw_text(room_width / 2, room_height / 10, "INSTRUCTIONS");
 	draw_set_font(font_15pt);
-	draw_text(room_width / 2, room_height*3/10, "Add lore and instructions here");
-	
-	
+	draw_text(room_width / 2, room_height*3/10, "Marshall the Marshmallow has lost his friends" +
+	"deep in the woods. \nMarshall will have to overcome all sorts of obstacles if he is to reunite" + 
+	"with his friends Graham and Milton. \nWill he be able to reunite with them at the campfire?" +
+	"\n\n\n\n\n\n Arrow Keys to Move and Jump\nSpacebar to roll to crush ants");
+
 }
 
 else

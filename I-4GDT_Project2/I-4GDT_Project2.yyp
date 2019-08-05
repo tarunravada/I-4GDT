@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "c1a1ebf4-6248-4fd7-9c2b-77e12c7c7ea4",
+            "Value": {
+                "id": "6d540a7d-0867-4d8c-853d-92c8f8e8fa6a",
+                "resourcePath": "sounds\\snd_comePlayWithMe_kevinMcLeod\\snd_comePlayWithMe_kevinMcLeod.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c4d6b70f-bc30-418e-8c3e-e4a84840be17",
             "Value": {
                 "id": "d70c145b-7627-46a4-a239-800f6b01c42d",
