@@ -13,7 +13,7 @@ enum Dir {
 vx = 0;
 vy = 0;
 
-mvSpeed = 4;
+mvSpeed = 3;
 grav = 0.3
 jmpSpeed = -6;
 
