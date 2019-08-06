@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "5ad79ba5-040e-45e6-99a4-88d8eb2470e1",
+            "Value": {
+                "id": "fec32373-7386-4f22-8e5f-b39c22edf048",
+                "resourcePath": "objects\\obj_cheat\\obj_cheat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5cc2a64d-52e0-4e31-b907-8e799ed13c51",
             "Value": {
                 "id": "f677fc6b-6024-4716-b644-78876fef0b79",

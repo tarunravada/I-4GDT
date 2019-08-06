@@ -1,0 +1,20 @@
+if(keyboard_check_pressed(vk_control))
+{
+	obj_healthController.hlth +=50;
+}
+if(keyboard_check_pressed(vk_down))
+{
+	room_goto(room0);
+}
+if(keyboard_check_pressed(vk_up))
+{
+	room_goto(room1);
+}
+if(keyboard_check_pressed(vk_right))
+{
+	room_goto(room2);
+}
+if(keyboard_check_pressed(vk_left))
+{
+	room_goto(room_end);
+}
