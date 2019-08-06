@@ -42,7 +42,7 @@ if (move<0)
 
 	if((place_meeting(x, y+1,obj_block)) && key_space)
 	{
-		if(roll_count < room_speed * 5)
+		if(roll_count < room_speed * obj_goalController.roll_duration)
 		{
 			state = States.ROLLING;
 			roll_count ++;
@@ -71,7 +71,7 @@ else if(move>0)
 
 	if((place_meeting(x, y+1,obj_block)) && key_space)
 	{
-		if(roll_count < room_speed * 5)
+		if(roll_count < room_speed * obj_goalController.roll_duration)
 		{
 			state = States.ROLLING;
 			roll_count ++;

@@ -247,14 +247,6 @@
             }
         },
         {
-            "Key": "466e507d-ce05-4f97-8657-126b01bd7ad8",
-            "Value": {
-                "id": "865a762e-ae33-4d8e-9140-6300b999c962",
-                "resourcePath": "objects\\obj_tent\\obj_tent.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "46ce0150-1cf0-4e77-b479-ff121954d3b6",
             "Value": {
                 "id": "2c4d5c31-6ab4-4133-99be-647b98d958d2",
@@ -316,6 +308,14 @@
                 "id": "f677fc6b-6024-4716-b644-78876fef0b79",
                 "resourcePath": "tilesets\\tileset0\\tileset0.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "5cdba1c6-7555-4cf4-abbf-91eb4494ccfd",
+            "Value": {
+                "id": "18b9a428-5f87-452c-bba9-3193df2479b1",
+                "resourcePath": "sounds\\snd_ouch\\snd_ouch.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "8eb767c5-cfdb-4729-8ae0-e67173f95d48",
+            "Value": {
+                "id": "1afb4c2e-f94b-486e-aee5-b6c867c6bac3",
+                "resourcePath": "sounds\\snd_cheer\\snd_cheer.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "93437a90-627d-438a-a322-8cd218db90ce",
             "Value": {
                 "id": "6f5b526d-cef6-4f97-9a2d-11016eee2ed1",
@@ -546,7 +554,7 @@
             "Key": "c1a1ebf4-6248-4fd7-9c2b-77e12c7c7ea4",
             "Value": {
                 "id": "6d540a7d-0867-4d8c-853d-92c8f8e8fa6a",
-                "resourcePath": "sounds\\snd_comePlayWithMe_kevinMcLeod\\snd_comePlayWithMe_kevinMcLeod.yy",
+                "resourcePath": "sounds\\snd_bkg\\snd_bkg.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -724,6 +732,14 @@
                 "id": "a9ce80d4-54d3-41b4-bf79-6a260fe9136d",
                 "resourcePath": "views\\fcc50aad-f317-4a51-b340-9da2ba24ecb1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fd6b5049-a884-44c5-a242-627947147529",
+            "Value": {
+                "id": "ce54d925-946c-484e-a560-cdd8bc8ef68c",
+                "resourcePath": "sounds\\snd_antDeath\\snd_antDeath.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -1,4 +1,5 @@
 foundChoco = false;
 foundGraham = false;
-foundCampfire = false;
 gameWon = false;
+
+roll_duration = 3;

@@ -4,10 +4,11 @@ if(instructions = true)
 	draw_set_halign(fa_center);
 	draw_text(room_width / 2, room_height / 10, "INSTRUCTIONS");
 	draw_set_font(font_15pt);
-	draw_text(room_width / 2, room_height*3/10, "Marshall the Marshmallow has lost his friends" +
-	"deep in the woods. \nMarshall will have to overcome all sorts of obstacles if he is to reunite" + 
-	"with his friends Graham and Milton. \nWill he be able to reunite with them at the campfire?" +
-	"\n\n\n\n\n\n Arrow Keys to Move and Jump\nSpacebar to roll to crush ants");
+	draw_text(room_width / 2, room_height*2.5/10, 
+	"Marshall the Marshmallow has lost his friends Milton the chocobar and Graham the cracker, deep in the forest."+
+	"\n\nMarshall will have to find his way to his friends while avoiding dangerous ants and stray fires."+ 
+	"\n\nHelp Marshall rescue his friends and find his way to their camp, \n\nwhere they will be safe from the dangers of the forest!");
+	draw_text(room_width / 2, room_height*7/10, "Use the arrow key to Jump and move. \n\nSpace bar to roll and squish ants. \n\nIncrease roll duration by squishing ants, picking health, and finding friends.");
 
 }
 
