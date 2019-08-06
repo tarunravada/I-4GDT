@@ -15,7 +15,7 @@ if(place_meeting(x,y,obj_marsh)&&active){
 	if(obj_marsh.state == States.ROLLING)
 	{
 		instance_change(obj_antDead,true);
-		score += 5;
+		obj_goalController.roll_duration += 0.5;
 	}
 	else
 	{
@@ -24,6 +24,7 @@ if(place_meeting(x,y,obj_marsh)&&active){
 		sprite_index = spr_antEatMarsh;
 		obj_healthController.hlth += damage;
 		obj_healthController.lastDamage = Damager.ANT;
+		audio_play_sound(snd_ouch,0,0);
 		alarm[0] = room_speed*10;
 	}
 

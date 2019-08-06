@@ -15,4 +15,4 @@ image_yscale = 2;
 
 instructions = false;
 
-audio_play_sound(snd_comePlayWithMe_kevinMcLeod, 0, 1);
+audio_play_sound(snd_bkg, 0, 1);
